@@ -22,7 +22,7 @@ export default async function handler(req, res) {
                 quantity: item.quantity
             }))
 
-            const session = await stripe.checkout.sessions.create({ line_items: tranformedItems, mode: 'payment', success_url: `https://jordan-store-lemon.vercel.app/success`, cancel_url: `https://jordan-store-lemon.vercel.app/failed` });
+            const session = await stripe.checkout.sessions.create({ line_items: tranformedItems, mode: 'payment', success_url: `https://jordan-store-dream.vercel.app/success`, cancel_url: `https://jordan-store-dream.vercel.app/failed` });
 
             res.json({
                 url: (session).url
