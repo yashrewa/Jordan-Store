@@ -2,5 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/cart": "pages/cart.js"
+  "/api/categories": "pages/api/categories.js",
+  "/api/categories/[slug]": "pages/api/categories/[slug].js",
+  "/api/create-checkout-session": "pages/api/create-checkout-session.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/product/[slug]": "pages/api/product/[slug].js",
+  "/api/products": "pages/api/products.js",
+  "/cart": "pages/cart.js",
+  "/failed": "pages/failed.js",
+  "/success": "pages/success.js",
+  "/category/[slug]": "pages/category/[slug].js",
+  "/": "pages/index.js",
+  "/product/[slug]": "pages/product/[slug].js"
 }
